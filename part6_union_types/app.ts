@@ -10,10 +10,7 @@ console.log(password);
 // password=true; gives an error 
 
 
-
-
-
-type FileInput = string | File;
+type FileInput = string | File;  
 
 function processFile(input: FileInput): void {
   if (typeof input === "string") {
